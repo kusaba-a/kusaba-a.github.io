@@ -159,6 +159,24 @@ caption p{
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.gallery_box figure{
+  margin: 0 0 15px 15px;
+  width: 180px;
+  float: left;
+}
+
+.gallery_box{
+  overflow: hidden;
+}
+
+.gallery_box figure:first-child{
+  margin-left: 0px
+}
+
+.gallery_box:first-of-type{
+  margin-top: 30px
+}
 /* 「プランのご案内」ページ ここまで↑ */
 
 /* 「ブライダルフェア」ページ ここから↓ */
