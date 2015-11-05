@@ -1,0 +1,221 @@
+@charset="UTF-8";
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color:#E8E1C7;
+}
+
+nav ul{
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style-type:none;
+  overflow: hidden;
+}
+
+nav ul li{
+  float: left;
+  width:165px;
+}
+
+nav ul li a{
+  overflow:hidden;
+  display: block;
+  padding-top: 44px;
+  height: 0;
+}
+
+nav ul li#nav_top a{
+  background-image: url(../images/menu_top.png);
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+
+nav ul li#nav_about a{
+  background-image: url(../images/syoukai.png);
+  background-repeat: no-repeat;
+}
+
+nav ul li#nav_syoukai a{
+  background-image: url(../images/osirase.png);
+  background-repeat: no-repeat;
+}
+
+nav ul li#nav_topic a{
+  background-image: url(../images/otoiawase.png);
+  background-repeat: no-repeat;
+}
+
+nav ul li#nav_acsess a{
+  background-image: url(../images/acsses.png);
+  background-repeat: no-repeat;
+  padding-right: 0;
+}
+
+header,nav,footer,h1,h2,div,section{
+  margin: 0 auto 0 auto;
+  width: 840px;
+}
+
+#TOPS{
+    margin: 0 auto 0 auto;
+}
+
+.image_ebi{
+  float:left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#tablist{
+  border: double;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#question{
+  border: double;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#access{
+  border: double;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+input[type="name"]{
+  width: 200px;
+}
+
+input[type="email"]{
+  width: 300px;
+}
+
+textarea{
+  width: 500px;
+  height: 200px;
+}
+
+#tab3{
+  height: 250px;
+}
+
+img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#news ul{
+  list-style-type: none;
+  padding-left: 0px;
+      margin: 0 auto 0 auto;
+  width: 840px;
+}
+
+#news ul li{
+  padding: 20px 0 20px 175px;
+  border-bottom: 1px double #6c5f45;
+  color:#342300;
+  text-indent: -175px;
+  margin: 0 auto 0 auto;
+  width: 840px;
+}
+
+#news ul li time{
+  display: block;
+  width: 175px;
+  font-weight: bold;
+  color: #6c5f45;
+}
+
+#news{
+  border: double;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+table th,table td{
+  padding: 15px;
+  border: 1px solid #6c5f45;
+}
+
+table th{
+  text-align: center;
+}
+
+
+.item-name{
+  font-size: 150%;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.syoukaibun{
+  font-size: 200%;
+}
+
+h1{
+  margin-left: 10px;
+}
+
+.heiten{
+  position: center;
+}
+
+table thead tr th{
+  background-color: #000000;
+}
+
+table tr:nth-child(even){
+  background-color: #8FBC8F;
+}
+
+table tr:nth-child(0){
+  background-color: #000000;
+}
+
+#graphic {
+  width: 840px;
+  height: 400px;
+  margin: 0 auto 30px auto;
+}
+#graphic ul {
+  position: relative;
+  list-style: none;
+  padding-left: 0;
+}
+#graphic ul li {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+#graphic ul li.now {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 1;
+}
+
+#thanks{
+  font-size: 150%;
+}
+
+#close{
+  font-size: 120%;
+}
+

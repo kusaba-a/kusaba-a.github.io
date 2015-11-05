@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>財布</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+  <img src="images/saihu.jpg" height="182" width="277">
+  <p>貴重なワニ皮で作られた財布です。<br>
+    見た目だけではなく、使いやすさも一流の商品です。<br>
+    重量：400g</p>
+    <table>
+      <tr>
+        <th scope="col">項目</th>
+        <th scope="col">説明</th>
+      </tr>
+      <tbody>
+        <tr>
+          <th scope="row">商品名</th>
+          <td>財布</td>
+        </tr>
+        <tr>
+          <th scope="row">サイズ</th>
+          <td>300×100mm</td>
+        </tr>
+        <tr>
+          <th scope="row">お値段</th>
+          <td>￥8000～</td>
+        </tr>
+      </tr>
+      <tr>
+        <th scope="row">カラー</th>
+        <td>ブラック・ベージュ</td>
+      </tr>
+    </tbody>
+  </table>
+  <label><input type="radio" name="kind" value="0">ブラック</label><br>
+  <label><input type="radio" name="kind" value="1">ベージュ</label><br>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <form action="kounyuu.html" method="get">
+    <input type="submit" name="submit" value="購入" onclick="return confirm('購入しますか？')">
+  </body>
+  </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>手帳</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+  <img src="images/tetyou.jpg" height="182" width="277">
+  <p>
+    選び抜かれた高品質な革を職人が丹念に仕上げた、丈夫で機能的なシステム手帳です。<br>
+    バイブルサイズは、どなたにもお使いいただけるスタンダードな大きさ。<br>
+    美しさと耐久性を兼ね備えた本品は、長く使える最高のパートナーとなるでしょう。<br>
+    重量：502g
+  </p>
+  <table>
+    <tr>
+      <th scope="col">項目</th>
+      <th scope="col">説明</th>
+    </tr>
+    <tbody>
+      <tr>
+        <th scope="row">商品名</th>
+        <td>手帳</td>
+      </tr>
+      <tr>
+        <th scope="row">サイズ</th>
+        <td>164mm×232mm×22mm</td>
+      </tr>
+      <tr>
+        <th scope="row">お値段</th>
+        <td>￥5000～</td>
+      </tr>
+      <tr>
+        <th scope="row">カラー</th>
+        <td>ブラック・ベージュ</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <label><input type="radio" name="kind" value="0">ブラック</label><br>
+  <label><input type="radio" name="kind" value="1">ベージュ</label><br>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+  <form action="kounyuu.html" method="get">
+    <input type="submit" name="submit" value="購入" onclick="return confirm('購入しますか？')">
+  </body>
+  </html>
